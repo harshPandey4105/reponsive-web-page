@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+.backGround{
+    background: rgba(0, 0, 0, 0.7) url("./images/city.jpg");
+    background-size: cover;
+    /* background-blend-mode:darken ; */
+}
+.simple-nav{
+    background: rgba(0, 0, 0, 0.7) url("./images/city.jpg");
+    background-size: cover;
+    display: none;
+}
+.navbar{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo i{
+    padding-top: 5px;
+    font-size: 40px;
+    margin-left: 35px;
+    color: whitesmoke;
+}
+.logo p{
+    color: whitesmoke;
+    font-family: monospace;
+    margin-left: 15px;
+    font-weight:bold ;
+}
+.navList{
+    display: flex;
+    list-style: none;
+}
+
+.navList li{
+    margin: 0 40px;
+}
+
+.navList li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+}
+.navList li a:hover{
+    font-size: 14px;
+}
+
+.searchInput{
+    height: 30px;
+    width: 200px;
+    background: white;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 15px ;
+    color: black;
+    border: 2px white solid;
+}
+.searchbtn{
+    width: 50px;
+    height: 30px;
+    color: #000;
+    background-color:white;
+    margin-left: -5px;
+    margin-right: 20px;
+    border: 1px solid white;
+    padding-right: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn{
+    padding: 10px 20px; 
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.btn2{
+    padding: 5px 10px; 
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.btn:hover{
+    padding: 8px 18px;
+    color: grey;
+    border: 2px solid grey;
+}
+.btnSmall{ 
+    padding: 5px 10px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    margin:0 20px;
+}
+.btnSmall:hover{
+    color: grey;
+    border: 2px solid grey;
+    padding: 3px 8px ;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 50%;
+   margin: auto;
+   height: 80%;
+}
+.firstHalf{
+   max-width: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.secondHalf{
+    
+}
+.sh-Image{
+    border-radius: 50%;
+    border: 5px solid rgb(86, 171, 236);
+    height: 120px;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.generalSpace{
+    margin: 20px 10px;
+}
+.text-big{
+    font-size: 30px;
+}
+.just p{
+    color: black;
+    flex-direction: row-reverse;
+}
+.Section{
+    display: flex;
+    background: none;
+    margin-top: 10px;
+}
+.textContainer{
+    /* width: 65%; */
+    display: block;
+    margin: 0 10px;
+}
+.textContainer p{
+    margin-top: 10px;
+    color: black;
+    font-size: large;
+}
+h1{
+    color: black;
+}
+.imgContainer{
+    display: block;
+    margin: auto;
+}
+.imgContainer img{
+    border-radius: 70%;
+    border: 5px solid black;
+    height: 150px;
+    width: 150px;
+}
+.contactPage{
+    background-color: rgb(237, 238, 240);
+    max-width: 100%;
+    min-width: 200px;
+}
+.contact-heading h1{
+   padding: 20px 0;
+}
+.contact-inputs input{
+   margin: 15px 0;
+   padding: 10px 10px;
+   width: 400px;
+   border: 2px solid black;
+   border-radius: 5px;
+   color: #000;
+}
+.btn-dark{
+    color: #000;
+    margin: 15px 0;
+    padding: 10px 20px; 
+    background: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.feedback{
+    width: 400px;
+    height: 100px;
+    border: 2px solid black;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 15px 0;
+}
+.centerContact{
+    display: flex;
+    justify-content: center;
+}
+.footer-text {
+    max-width: 100%;
+    min-width: 200px;
+}
+.footer-text p{
+    padding: 15px;
+}

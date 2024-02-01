@@ -1,0 +1,186 @@
+@media screen and (max-width: 958px){
+    .sh-Image{
+        height: 70px;
+    }
+    .firstSection{
+        height: 70vh;
+    }
+    .navList li a{
+        font-size: small;
+        font-weight: bold;
+    }
+    .navList li{
+        margin: 0 30px;
+    }
+    .searchInput{
+        width: 170px;
+    }
+    .searchbtn{
+        margin-right: 10px;
+    }
+    .generalSpace{
+        margin: 0 5px;
+    }
+    .btn{
+        margin-top: 15px;
+    }
+    .text-big{
+        font-size: 20px;
+    } 
+}
+
+/* @media screen and (max-width: 856px){
+    .navbar{
+        flex-direction:column;
+        display: none;
+    }
+    .navList{
+        flex-direction:column;
+    }
+    .navList li{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .logo i{
+        align-items: center;
+    }
+    .rightNavigation{
+        margin: 20px 0;
+    }
+    .sh-Image{
+    
+    }
+    .simple-nav{
+        display:block;
+    }
+    .firstHalf{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .responsive-width{
+    }
+    .small-text{
+        font-size:15px;
+    }
+    .imgContainer img{
+        height: 100px;
+        width: 100px;
+    }
+}*/
+@media screen and (max-width: 800px){
+    
+    .navbar{
+        flex-direction:column;
+        display: none;
+        height: 350px;
+    }
+    .dis{
+        display: block;
+    }
+    #logo{
+        display: none;
+    }
+    .navList{
+        flex-direction:column;
+    }
+    .navList li{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .logo i{
+        align-items: center;
+    }
+    .rightNavigation{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .simple-nav{
+        display:flex;
+        justify-content: space-between;
+        align-items: center
+        ;
+    }
+    .textContainer p{
+        font-size: 13px ;
+    }
+    .textContainer h1{
+        font-size: 15px ;
+    }
+    .contact-inputs input{
+        margin: 10px 0;
+        width: 250px;
+    }
+    .imgContainer img{
+        height: 70px;
+        width: 70px;
+    }
+    .footer-text p{
+        padding: 10px;
+        font-size: 7px;
+    }
+    .feedback{
+        width: 250px;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+} 
+
+@media screen and (max-width: 500px){
+    .firstSection{
+        height: 50vh;
+    }
+    .text-big{
+        font-size: 12px;
+    }
+    .text-small{
+        font-size: 8px;
+    }
+    .btn{
+        padding: 5px 10px; 
+    }
+}
+@media screen and (max-width: 350px){
+    .sh-Image{
+        height: 50px;
+        width: 50%;
+    }
+    .btn{
+        padding: 3px 7px; 
+        font-size: 10px;
+    }
+    .Section{
+        display: block;
+        margin-top: 10px;
+    }
+    .imgContainer{
+        display: flex;
+        justify-content: center;
+        margin: 5px 0;
+    }
+    .searchInput{
+        width: 140px;
+    }
+    .searchbtn{
+        margin-right: 0;
+    }
+    #i-logo{
+       font-size: 25px;
+       margin-left: 25px;
+    }
+    #i-text{
+       font-size: 10px;
+       margin-left: 10px;
+    }
+    .btn2{
+        padding: 5px 10px; 
+        margin-right: 10px;
+    }
+}
